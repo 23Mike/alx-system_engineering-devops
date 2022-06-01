@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/psswdd | wc -l "bin"
+grep -A bin /etc/passwd
